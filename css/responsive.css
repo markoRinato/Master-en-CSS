@@ -115,6 +115,7 @@
     #login input[type="reset"]{
         display: none;
     }
+}
     @media (max-width:850px){
         #menu{
             margin-right: 5%;
@@ -170,3 +171,43 @@
            width: 8%;
         } 
     } 
+
+    @media (max-width: 660px){
+        #lateral{
+            clear: both;
+            float: none;
+            width: 100%;
+            min-height: auto;
+            margin: 10px auto;
+        }
+        #articles{
+            clear: both;
+            float: none;
+            width: 100%;
+            margin: 0px auto;
+            min-height: auto;
+        }
+        #articles h2{
+            clear: both;
+            float: none;
+            width: 90%;
+        }
+        .card{
+            height: auto;
+        }
+        .card .description{
+            display: none;
+        }
+        #footer h5{
+            font-size: 22px;
+        }
+        #footer h5{
+            font-size: 15px;
+        }
+        #footer .wrap > div{
+            width: 22%;
+        }
+        #footer #browsers img{
+           width: 10%;
+        } 
+    }
